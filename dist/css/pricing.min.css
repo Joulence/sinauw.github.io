@@ -1,0 +1,107 @@
+.pricing {
+  margin-top: 170px;
+}
+
+.pricing-titles {
+  text-align: center;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.price-block {
+  position: relative;
+  max-width: 372px;
+  height: 515px;
+  border: 2px rgba(196, 196, 196, 0.2) solid;
+  padding: 32px 16px;
+  background: rgba(31, 33, 67, 0.3);
+  border-radius: 20px;
+  text-align: left;
+  margin-top: 84px;
+}
+.price-block hr {
+  border: 1px solid #292B56;
+  margin: 20px 0 20px;
+}
+
+.price-header {
+  display: flex;
+}
+.price-header h1,
+.price-header h2 {
+  margin: 0;
+}
+.price-header h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.price-header h2 {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.price-header span, .price-header sup {
+  color: #F5453D;
+  font-weight: 700;
+}
+.price-header sup {
+  font-size: 14px;
+}
+.price-header span {
+  font-size: 28px;
+}
+
+.price__headers {
+  margin-left: 30px;
+  align-self: center;
+}
+
+.price-block__list {
+  padding-left: 5%;
+}
+
+.price-block__buy {
+  width: 90%;
+  left: 5%;
+  position: absolute;
+  bottom: 36px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 12px 32px;
+  background: #F5443B;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px #F5443B solid;
+  transition: all 0.1s linear;
+}
+.price-block__buy:hover {
+  background: transparent;
+}
+.price-block__buy span:first-child {
+  display: block;
+}
+.price-block__buy span:last-child {
+  display: none;
+}
+
+.price-block__bought span:first-child {
+  display: none;
+}
+.price-block__bought span:last-child {
+  display: block;
+}
+
+@media (max-width: 615px) {
+  .prices {
+    justify-content: center;
+  }
+}

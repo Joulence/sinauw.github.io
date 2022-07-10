@@ -1,0 +1,25 @@
+footer {
+  margin-top: 148px;
+}
+
+.footer-contact {
+  margin-top: 8px;
+}
+
+.footer-links a {
+  margin-right: 32px;
+}
+.footer-links a:last-child {
+  margin-right: 0;
+}
+.footer-links a img {
+  margin-top: 24px;
+}
+
+.footer-copy {
+  margin-top: 118px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8F91D0;
+}
